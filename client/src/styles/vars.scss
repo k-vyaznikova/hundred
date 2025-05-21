@@ -1,0 +1,33 @@
+$root-url: "http://localhost:8080";
+
+/*
+Colors
+*/
+$accent: #FF57AA;
+$main: #2B3485;
+$white: #ffffff;
+$cell: #E8EFFF;
+
+$black-shadow: rgba(0, 0, 0, 0.3);
+$grey: #848994;
+$light-grey: #E7E7E7;
+$black: #0B1131;
+
+
+$red: #FFC8C8;
+$green: #C8FFE6;
+
+
+$white-semi-transparent: rgba(255, 255, 255, 0.2);
+
+/*
+Fonts
+*/
+@font-face {
+	font-family: 'ShantellSans-Medium'; 
+	src: url($root-url + '/fonts/Shantell_Sans/static/ShantellSans-Medium.ttf'); 
+}
+
+$main-text: 'ShantellSans-Medium', 'Roboto', sans-serif;
+
+

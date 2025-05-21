@@ -1,0 +1,20 @@
+@import './vars.scss';
+body {
+    font-family: $main-text;
+    input:focus,
+    select:focus,
+    textarea:focus,
+    button:focus {
+        outline: none;
+    }
+
+    #root {
+        height: 100vh;
+        .app{
+            height: 100%;
+            box-sizing: border-box;
+        }
+    }
+}
+
+

@@ -1,0 +1,12 @@
+@import './../../styles/vars.scss';
+
+
+.pic-container {
+    top: 10px;
+    left: 10px;
+    padding-bottom: 30px;
+    .pic {
+        width: 150px;
+        height: 150px;
+    }
+}
