@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+      "composite": true,
+      "target": "es2019",
+      "module": "commonjs",
+      "outDir": "./public/",
+      "noImplicitAny": false,
+      "jsx": "react",
+      "esModuleInterop": true,
+      "allowJs": true,
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "typeRoots": [
+        "node_modules/@types",
+        "special-types/"
+      ], 
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      
+      "paths": {
+        "@components/*": ["./components/*"],
+        "@assets/*": ["./assets/*"],
+        "@pages/*": ["./pages/*"],
+        "@utils/*": ["./utils/*"],
+        "@lib/*": ["./lib/*"]
+      }
+    },
+    "ts-node": {
+      "esm": true,
+      "experimentalSpecifierResolution": "node"
+      }
+  }
